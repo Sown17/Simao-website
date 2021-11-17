@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 65px 0px 84px 0px;
+    p{
+        padding-top: 12px;
+    }
+    .right{
+        a{
+            font-size: 40px;
+            margin-left: 10px;
+        }
+        .fa{
+            border-radius: 50%;
+        }
+    }
+    @include maxWidth(576px){
+        display: inline;
+        margin: 0px;
+        .logo-footer{
+            text-align: center;
+            padding-top: 10px;
+            img{
+                width: 30%;
+            }
+        }
+        .right{
+            text-align: center;
+            height: 100px;
+            .fa{
+                font-size: 18px;
+            }
+        }
+    }
+}
