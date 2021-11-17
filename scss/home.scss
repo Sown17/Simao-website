@@ -54,7 +54,7 @@
             height: 13px;
             width: 2px;
             position: absolute;
-            top: 37px;
+            top: 32px;
             left: 178px;
         }
         p::before{
@@ -63,7 +63,7 @@
             height: 25px;
             width: 2px;
             position: absolute;
-            top: 25px;
+            top: 20px;
             left: 182px;
         }
     }
@@ -152,6 +152,7 @@
     .service-product{
         position: relative;
         text-align: center;
+        // padding-left: 25px;
         img{
             padding-top: 14px;
             margin-bottom: 19px;
@@ -250,6 +251,11 @@
     }
     @include maxWidth(576px){
         height: 600px;
+        .service-product{
+            p{
+                padding: 0px 45px 26px 42px;
+            }
+        }
     }
     
 }
@@ -280,7 +286,7 @@
         }
     }
     @include maxWidth(576px){
-        height: 500px;
+        height: 900px;
         .product-nav{
             font-size: 9px;
             li{

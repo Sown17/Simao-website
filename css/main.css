@@ -22,7 +22,7 @@ body {
 }
 .header li {
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 5px;
 }
 .header a {
   text-decoration: none;
@@ -113,7 +113,7 @@ body {
 }
 @media (max-width: 576px) {
   .header {
-    height: 633px;
+    height: 570px;
   }
   .header .nav {
     display: none;
@@ -122,11 +122,11 @@ body {
     padding-top: 43px;
   }
   .header .logo {
-    padding-left: 135px;
+    padding-left: 120px;
   }
   .header .about-img {
     width: 60%;
-    margin-left: 80px;
+    margin-left: 65px;
   }
   .header .header-content {
     display: block;
@@ -204,7 +204,7 @@ body {
     height: 13px;
     width: 2px;
     position: absolute;
-    top: 37px;
+    top: 32px;
     left: 178px;
   }
   .title p::before {
@@ -213,7 +213,7 @@ body {
     height: 25px;
     width: 2px;
     position: absolute;
-    top: 25px;
+    top: 20px;
     left: 182px;
   }
 }
@@ -381,6 +381,9 @@ body {
   .service {
     height: 600px;
   }
+  .service .service-product p {
+    padding: 0px 45px 26px 42px;
+  }
 }
 
 .my-product {
@@ -409,7 +412,7 @@ body {
 }
 @media (max-width: 576px) {
   .my-product {
-    height: 500px;
+    height: 900px;
   }
   .my-product .product-nav {
     font-size: 9px;
