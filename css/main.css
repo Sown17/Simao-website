@@ -95,15 +95,50 @@ body {
     height: 570px;
   }
   .header .nav-menu {
-    display: none;
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    display: block;
+    flex-direction: column;
+    background-color: #524b4b;
+    height: 377px;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+  .header .nav-menu li {
+    display: block;
+    margin-left: 0px;
+  }
+  .header .nav-menu.active {
+    left: 0px;
+  }
+  .header .nav-item {
+    margin: 20px;
+    padding-right: 20px;
+  }
+  .header .hamburger {
+    display: block;
+    cursor: pointer;
   }
   .header .bar {
     display: block;
-    position: absolute;
-    top: 45px;
-    font-size: 30px;
-    left: 320px;
-    color: #fff;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fcfbfb;
+  }
+  .header .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .header .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .header .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
   }
   .header .top {
     padding-top: 43px;
