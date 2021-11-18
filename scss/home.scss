@@ -5,6 +5,7 @@
     font-size: 30px;
     font-weight: bold;
     position: relative;
+
     p::after{
         content: "";
         background-color: #FFB600;
@@ -582,6 +583,9 @@
 .blog{
     background-color: #F0FCFD;
     height: 865px;
+    img{
+        width: 380px;
+    }
     .blog-desc{
         text-align: center;
         background-color: #fff;

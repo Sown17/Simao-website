@@ -675,6 +675,9 @@ body {
   background-color: #F0FCFD;
   height: 865px;
 }
+.blog img {
+  width: 380px;
+}
 .blog .blog-desc {
   text-align: center;
   background-color: #fff;
