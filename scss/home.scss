@@ -191,6 +191,7 @@
                 background-color: #fff;
                 height: 387px;
                 width: 354px;
+                margin-left: 20px;
                 img{
                     padding-left: 154px;
                 }
@@ -215,6 +216,11 @@
     }
     @include maxWidth(1024px){
         .service-product{
+            .list-desc{
+                .desc{
+                    margin-left: 0px;
+                }
+            }
             img{
                 width: 55%;
             }
@@ -247,6 +253,7 @@
                 z-index: 100;
                 position: absolute;
             }
+            
         }
     }
     @include maxWidth(576px){
@@ -254,6 +261,11 @@
         .service-product{
             p{
                 padding: 0px 45px 26px 42px;
+            }
+            .list-desc{
+                .desc{
+                    margin-left: -6px;
+                }
             }
         }
     }
@@ -541,15 +553,17 @@
         height: 15px;
     }
     .slick-dots button{
+        background-color: #535353;
         font-size: 0px;
-        border-radius: 50%;
-        width: 15px;
-        height: 15px;
+        border-radius: 10px;
+        width: 20px;
+        height: 7px;
         border: none;
         outline: none;
         margin-top: 30px;
     }.slick-dots .slick-active button{
-        background-color: #fd8313;
+        background-color: #15C87E;
+        width: 30px;
     }
     @include maxWidth(576px){
         height: 500px;
@@ -608,8 +622,6 @@
         height: 1700px;
         img{
             padding-top: 20px;
-        }
-        .blog-desc{
         }
     }
 

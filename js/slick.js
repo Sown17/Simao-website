@@ -55,14 +55,15 @@ $('.flatform-slick').slick({
         {
           breakpoint: 768,
           settings: {
+            dots:false,
             slidesToShow: 1,
             slidesToScroll: 1,
-            dots:false,
           }
         },
         {
-          breakpoint: 480,
+          breakpoint: 576,
           settings: {
+            dots:false,
             slidesToShow: 1,
             slidesToScroll: 1
           }

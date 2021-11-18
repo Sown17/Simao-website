@@ -8,10 +8,7 @@
     .right{
         a{
             font-size: 40px;
-            margin-left: 10px;
-        }
-        .fa{
-            border-radius: 50%;
+            margin-left: 10px
         }
     }
     @include maxWidth(576px){

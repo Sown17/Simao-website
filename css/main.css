@@ -63,39 +63,9 @@ body {
   font-size: 68px;
 }
 @media (max-width: 1024px) {
-  .header .top .nav-menu {
-    position: fixed;
-    left: -100%;
-    top: 5rem;
-    flex-direction: column;
-    background-color: #fff;
-    width: 100%;
-    border-radius: 10px;
-    text-align: center;
-    transition: 0.3s;
-    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-  }
-  .header .top .nav-menu.active {
-    left: 0;
-  }
-  .header .top .nav-item {
-    margin: 2.5rem 0;
-  }
-  .header .top .hamburger {
-    display: block;
-    cursor: pointer;
-  }
-  .header .top .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-  .header .top .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-  .header .top .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
   .header .logo {
-    padding-left: 0px;
+    padding-left: 10px;
+    padding-top: 20px;
   }
   .header .about-img img {
     width: 90%;
@@ -324,6 +294,7 @@ body {
   background-color: #fff;
   height: 387px;
   width: 354px;
+  margin-left: 20px;
 }
 .service .service-product .list-desc .desc img {
   padding-left: 154px;
@@ -344,6 +315,9 @@ body {
   position: absolute;
 }
 @media (max-width: 1024px) {
+  .service .service-product .list-desc .desc {
+    margin-left: 0px;
+  }
   .service .service-product img {
     width: 55%;
   }
@@ -383,6 +357,9 @@ body {
   }
   .service .service-product p {
     padding: 0px 45px 26px 42px;
+  }
+  .service .service-product .list-desc .desc {
+    margin-left: -6px;
   }
 }
 
@@ -636,16 +613,18 @@ body {
   height: 15px;
 }
 .flatform .slick-dots button {
+  background-color: #535353;
   font-size: 0px;
-  border-radius: 50%;
-  width: 15px;
-  height: 15px;
+  border-radius: 10px;
+  width: 20px;
+  height: 7px;
   border: none;
   outline: none;
   margin-top: 30px;
 }
 .flatform .slick-dots .slick-active button {
-  background-color: #fd8313;
+  background-color: #15C87E;
+  width: 30px;
 }
 @media (max-width: 576px) {
   .flatform {
@@ -822,9 +801,6 @@ body {
 .footer .right a {
   font-size: 40px;
   margin-left: 10px;
-}
-.footer .right .fa {
-  border-radius: 50%;
 }
 @media (max-width: 576px) {
   .footer {
