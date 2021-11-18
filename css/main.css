@@ -823,7 +823,7 @@ body {
 }
 .footer .right a {
   font-size: 40px;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 @media (max-width: 576px) {
   .footer {
