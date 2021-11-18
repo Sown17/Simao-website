@@ -49,13 +49,13 @@ $('.flatform-slick').slick({
             slidesToShow: 2,
             slidesToScroll: 1,
             infinite: true,
-            dots: false
+            dots: true
           }
         },
         {
           breakpoint: 768,
           settings: {
-            dots:false,
+            dots:true,
             slidesToShow: 1,
             slidesToScroll: 1,
           }
@@ -63,7 +63,7 @@ $('.flatform-slick').slick({
         {
           breakpoint: 576,
           settings: {
-            dots:false,
+            dots:true,
             slidesToShow: 1,
             slidesToScroll: 1
           }
