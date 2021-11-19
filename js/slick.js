@@ -1,3 +1,5 @@
+
+//slide
 $('.service-slick').slick({
     dots: false,
     infinite: true,
@@ -73,7 +75,7 @@ $('.flatform-slick').slick({
         // instead of a settings object
       ]
 });
-
+//nav-bar
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
